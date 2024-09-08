@@ -12,6 +12,7 @@ public class TextActivator : MonoBehaviour
     [SerializeField] TextMeshPro leaf;
     [SerializeField] GameObject realLeaf;
     [SerializeField] GameObject fake_leaf;
+    [SerializeField] GameObject main_Level;
     void Start()
     {
         arrow.gameObject.SetActive(false);
@@ -39,6 +40,17 @@ public class TextActivator : MonoBehaviour
     {
         realLeaf.gameObject.SetActive(false);
         fake_leaf.SetActive(true);
+    }
+
+    public void MainLevel()
+    {
+        main_Level.SetActive(false);
+
+        arrow.gameObject.SetActive(false);
+        steam.gameObject.SetActive(false);
+
+        arrow_1.gameObject.SetActive(false);
+        leaf.gameObject.SetActive(false);
     }
 
 }
