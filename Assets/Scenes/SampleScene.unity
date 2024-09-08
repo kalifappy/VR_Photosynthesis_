@@ -19146,6 +19146,9 @@ MonoBehaviour:
   realLeaf: {fileID: 7281187094860935525}
   fake_leaf: {fileID: 839419256}
   main_Level: {fileID: 8848839699190552378}
+  plant: {fileID: 1961506336}
+  roots: {fileID: 1571748840}
+  leaf_cut: {fileID: 1952034196}
 --- !u!1 &665722005
 GameObject:
   m_ObjectHideFlags: 0
@@ -46134,9 +46137,9 @@ Transform:
   m_Children:
   - {fileID: 1500521746}
   - {fileID: 1961506337}
+  - {fileID: 1571748841}
   - {fileID: 154604864}
   - {fileID: 1762287789}
-  - {fileID: 1571748841}
   - {fileID: 575608905}
   - {fileID: 191371537}
   - {fileID: 296088742}

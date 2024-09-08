@@ -13,6 +13,9 @@ public class TextActivator : MonoBehaviour
     [SerializeField] GameObject realLeaf;
     [SerializeField] GameObject fake_leaf;
     [SerializeField] GameObject main_Level;
+    [SerializeField] GameObject plant;
+    [SerializeField] GameObject roots;
+    [SerializeField] GameObject leaf_cut;
     void Start()
     {
         arrow.gameObject.SetActive(false);
@@ -51,6 +54,11 @@ public class TextActivator : MonoBehaviour
 
         arrow_1.gameObject.SetActive(false);
         leaf.gameObject.SetActive(false);
+
+        leaf_cut.gameObject.SetActive(false);
+
+        plant.gameObject.SetActive(false);
+        roots.gameObject.SetActive(false);
     }
 
 }
